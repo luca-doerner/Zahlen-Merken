@@ -1,0 +1,11 @@
+.idea/modules.xml
+*.iws
+*.iml
+*.ipr
+
+.classpath
+.project
+.settings
+
+!**/src/main/**/build
+!**/src/test/**/build
