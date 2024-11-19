@@ -1,6 +1,5 @@
 .idea/modules.xml
 *.iws
-*.iml
 *.ipr
 
 .classpath
