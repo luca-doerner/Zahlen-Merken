@@ -6,7 +6,6 @@ import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 import javax.swing.*;
 
@@ -36,7 +35,7 @@ public class GameWindow extends JPanel{
 				}
 				else {
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(60000);
                     } catch (InterruptedException ex) {
                         throw new RuntimeException(ex);
                     }
